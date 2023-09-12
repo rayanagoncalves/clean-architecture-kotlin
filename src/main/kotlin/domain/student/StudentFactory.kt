@@ -1,8 +1,4 @@
-package student
-
-import student.DocumentNumber
-import student.Email
-import student.Student
+package domain.student
 
 class StudentFactory(private var student: Student) {
 

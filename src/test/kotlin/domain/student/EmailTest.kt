@@ -1,8 +1,7 @@
-package student
+package domain.student
 
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.assertThrows
-import student.Email
 import java.lang.IllegalArgumentException
 import kotlin.test.assertEquals
 

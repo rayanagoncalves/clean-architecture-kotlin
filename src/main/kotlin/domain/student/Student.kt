@@ -1,4 +1,4 @@
-package student
+package domain.student
 
 data class Student(
     val documentNumber: DocumentNumber,
