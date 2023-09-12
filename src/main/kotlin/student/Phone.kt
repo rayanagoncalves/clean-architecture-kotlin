@@ -1,4 +1,4 @@
-package domain.student
+package student
 
 data class Phone(
     var ddd: String,

@@ -1,4 +1,4 @@
-package domain.student
+package student
 
 data class DocumentNumber(
     var number: String
