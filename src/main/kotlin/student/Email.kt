@@ -1,4 +1,4 @@
-package domain
+package student
 
 data class Email(
     var address: String

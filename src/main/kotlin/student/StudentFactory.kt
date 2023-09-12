@@ -1,8 +1,8 @@
-package factories
+package student
 
-import domain.DocumentNumber
-import domain.Email
-import domain.Student
+import student.DocumentNumber
+import student.Email
+import student.Student
 
 class StudentFactory(private var student: Student) {
 

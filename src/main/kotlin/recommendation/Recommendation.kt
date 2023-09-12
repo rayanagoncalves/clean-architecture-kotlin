@@ -1,5 +1,6 @@
-package domain
+package recommendation
 
+import student.Student
 import java.time.LocalDateTime
 
 data class Recommendation(
