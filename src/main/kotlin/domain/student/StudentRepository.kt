@@ -1,4 +1,4 @@
-package student
+package domain.student
 
 interface StudentRepository {
 
@@ -6,6 +6,6 @@ interface StudentRepository {
 
     fun findByDocumentNumber(documentNumber: DocumentNumber): Student
 
-    fun listAllRegisteredStudents()
+    fun listAllRegisteredStudents(): List<Student>
 
 }

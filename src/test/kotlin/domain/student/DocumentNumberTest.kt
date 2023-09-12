@@ -1,4 +1,4 @@
-package student
+package domain.student
 
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.assertThrows

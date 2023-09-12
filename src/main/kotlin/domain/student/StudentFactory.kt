@@ -1,4 +1,4 @@
-package student
+package domain.student
 
 class StudentFactory(private var student: Student) {
 
