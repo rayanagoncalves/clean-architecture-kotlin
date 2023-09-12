@@ -1,7 +1,7 @@
 package domain
 
 data class Student(
-    val documentNumber: String,
+    val documentNumber: DocumentNumber,
     val name: String,
     val email: Email
 ) {
