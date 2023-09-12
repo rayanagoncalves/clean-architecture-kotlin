@@ -3,7 +3,8 @@ package domain.student
 data class Student(
     val documentNumber: DocumentNumber,
     val name: String,
-    val email: Email
+    val email: Email,
+    val password: String
 ) {
     val phones: MutableList<Phone> = mutableListOf()
 
