@@ -9,6 +9,9 @@ data class Student(
     val password: String? = null
 
     fun addPhone(ddd: String, number: String) {
+        if(phones.size == 2) {
+            throw IllegalArgumentException("Número máximo de telefones atingido.")
+        }
         this.phones.add(Phone(ddd, number))
     }
 }
