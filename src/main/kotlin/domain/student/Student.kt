@@ -1,5 +1,6 @@
 package domain.student
 
+// AGGREGATE ROOT
 data class Student(
     val documentNumber: DocumentNumber,
     val name: String,
