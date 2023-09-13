@@ -24,5 +24,4 @@ class PasswordCipherMD5: PasswordCipher {
     override fun validateCipherPassword(cipherPassword: String, openPassword: String): Boolean {
        return cipherPassword == encryptPassword(openPassword)
     }
-
 }
