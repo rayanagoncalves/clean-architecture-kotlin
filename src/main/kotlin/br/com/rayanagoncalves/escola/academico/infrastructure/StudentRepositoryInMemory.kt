@@ -1,8 +1,8 @@
 package br.com.rayanagoncalves.escola.academico.infrastructure
 
-import br.com.rayanagoncalves.escola.academico.domain.student.DocumentNumber
 import br.com.rayanagoncalves.escola.academico.domain.student.Student
 import br.com.rayanagoncalves.escola.academico.domain.student.StudentRepository
+import br.com.rayanagoncalves.escola.shared.domain.DocumentNumber
 
 class StudentRepositoryInMemory(private var studentList: MutableList<Student> = mutableListOf()): StudentRepository {
 

@@ -1,6 +1,10 @@
 package br.com.rayanagoncalves.escola.academico.infrastructure
 
-import br.com.rayanagoncalves.escola.academico.domain.student.*
+import br.com.rayanagoncalves.escola.academico.domain.student.Email
+import br.com.rayanagoncalves.escola.academico.domain.student.Phone
+import br.com.rayanagoncalves.escola.academico.domain.student.Student
+import br.com.rayanagoncalves.escola.academico.domain.student.StudentRepository
+import br.com.rayanagoncalves.escola.shared.domain.DocumentNumber
 import java.sql.Connection
 import java.sql.SQLException
 

@@ -1,5 +1,6 @@
-package br.com.rayanagoncalves.escola.academico.domain.student
+package br.com.rayanagoncalves.escola.shared.domain
 
+import br.com.rayanagoncalves.escola.academico.domain.student.Email
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.assertThrows
 import kotlin.test.assertEquals

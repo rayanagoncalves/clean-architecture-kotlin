@@ -1,4 +1,4 @@
-package br.com.rayanagoncalves.escola.academico.domain
+package br.com.rayanagoncalves.escola.shared.domain.event
 
 class EventPublisher(private val listeners: MutableList<Listener>) {
 

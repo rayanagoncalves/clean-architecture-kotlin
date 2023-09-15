@@ -1,4 +1,4 @@
-package br.com.rayanagoncalves.escola.academico.domain.student
+package br.com.rayanagoncalves.escola.shared.domain
 
 data class DocumentNumber(
     var number: String

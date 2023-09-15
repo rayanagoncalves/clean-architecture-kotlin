@@ -1,13 +1,11 @@
 package br.com.rayanagoncalves.escola.academico.application
 
-import br.com.rayanagoncalves.escola.academico.application.RegisterStudent
-import br.com.rayanagoncalves.escola.academico.application.RegisterStudentDto
-import br.com.rayanagoncalves.escola.academico.domain.EventPublisher
-import br.com.rayanagoncalves.escola.academico.domain.Listener
-import br.com.rayanagoncalves.escola.academico.domain.student.DocumentNumber
 import br.com.rayanagoncalves.escola.academico.domain.student.EventListener
 import br.com.rayanagoncalves.escola.academico.infrastructure.StudentRepositoryInMemory
-import org.junit.jupiter.api.Assertions.*
+import br.com.rayanagoncalves.escola.shared.domain.DocumentNumber
+import br.com.rayanagoncalves.escola.shared.domain.event.EventPublisher
+import br.com.rayanagoncalves.escola.shared.domain.event.Listener
+import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 
 internal class RegisterStudentTest {

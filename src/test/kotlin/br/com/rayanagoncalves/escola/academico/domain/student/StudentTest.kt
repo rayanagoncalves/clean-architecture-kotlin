@@ -1,5 +1,6 @@
 package br.com.rayanagoncalves.escola.academico.domain.student
 
+import br.com.rayanagoncalves.escola.shared.domain.DocumentNumber
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.assertThrows
 import kotlin.test.assertEquals

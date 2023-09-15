@@ -1,5 +1,7 @@
 package br.com.rayanagoncalves.escola.academico.domain.student
 
+import br.com.rayanagoncalves.escola.shared.domain.DocumentNumber
+
 // AGGREGATE ROOT
 data class Student(
     val documentNumber: DocumentNumber,

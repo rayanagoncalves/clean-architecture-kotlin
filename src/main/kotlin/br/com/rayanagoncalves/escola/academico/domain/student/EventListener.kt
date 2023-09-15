@@ -1,7 +1,7 @@
 package br.com.rayanagoncalves.escola.academico.domain.student
 
-import br.com.rayanagoncalves.escola.academico.domain.Event
-import br.com.rayanagoncalves.escola.academico.domain.Listener
+import br.com.rayanagoncalves.escola.shared.domain.event.Event
+import br.com.rayanagoncalves.escola.shared.domain.event.Listener
 import java.time.format.DateTimeFormatter
 
 class EventListener: Listener() {
